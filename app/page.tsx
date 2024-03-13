@@ -3,7 +3,7 @@ import { createClient } from '@/utils/supabase/server';
 
 export default async function PricingPage() {
   const supabase = createClient();
-
+  // test
   const {
     data: { user }
   } = await supabase.auth.getUser();
